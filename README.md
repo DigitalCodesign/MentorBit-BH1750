@@ -114,5 +114,6 @@ Esta librería está diseñada para ser minimalista y fácil de usar. Solo neces
 - [Tienda Online de Canarias](https://canarias.digitalcodesign.com/shop)
 - [Tienda Online de Península](https://digitalcodesign.com/shop)
 - [Web Oficial de MentorBit](https://digitalcodesign.com/mentorbit)
-- [Web Oficial de Módulo MentorBit de Luxómetro](#)
-- [Manual de usuario del Módulo](#)
+- [Web Oficial de MentorBit módulo de luz ambiental (BH1750)](https://canarias.digitalcodesign.com/shop/00040019-mentorbit-modulo-de-luz-ambiental-bh1750-8723)
+- [Manual de usuario del Módulo](https://drive.google.com/file/d/1Fyj9xgbW73O7kZXQNKaLQ3aaK3cpGDZH/view?usp=drive_link)
+- [Modelo 3D de MentorBit módulo de luz ambiental (BH1750) en formato .STEP](https://drive.google.com/file/d/1ls4nBeFIT4mTYakK8VwrOEo9ZjGpJ4pV/view?usp=drive_link)
