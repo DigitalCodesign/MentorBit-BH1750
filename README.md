@@ -4,6 +4,8 @@ Esta librería está diseñada para que puedas medir la luz de tu entorno de una
 
 Si estás empezando en el mundo de la electrónica, ¡no te preocupes! MentorBit está pensado para que aprender sea fácil y divertido. Esta placa ya incluye un montón de componentes (LEDs, pulsadores, pantallas, etc.) y utiliza conectores especiales (JST) para que puedas añadir nuevos sensores y módulos sin tener que pelearte con un montón de cables. Pásate por nuestra web para saber más de MentorBit y nuestros productos [pinchando aquí](https://digitalcodesign.com/).
 
+![Render del Módulo MentorBit de Luxómetro.](https://github.com/DigitalCodesign/MentorBit-BH1750/blob/main/assets/AmbientLight_Module.png)
+
 Con esta librería, podrás saber cuánta luz hay en una habitación y usar esa información para crear proyectos increíbles.
 
 ## Descripción
@@ -34,7 +36,7 @@ Usar la librería es muy sencillo. Solo sigue estos pasos para tener tu sensor m
 
 1. **Conexión del Módulo**
 
-Antes que nada, conecta tu módulo de sensor BH1750 a uno de los puertos marcados como "I2C" en tu placa MentorBit. ¡Y listo! No necesitas más cables.
+Antes que nada, conecta tu módulo de sensor BH1750 al puerto marcado como ***I2C*** dentro de la zona de ***Comunicaciones*** en tu placa MentorBit. ¡Y listo! No necesitas más cables.
 
 2. **Instalación de las Librerías**
 
@@ -44,6 +46,8 @@ Para que tu placa MentorBit pueda comunicarse con el sensor, solo necesitas inst
 - Ve al menú *Programa -> Incluir Librería -> Administrar Librerías...*
 - En el buscador, escribe ***MentorBitBH1750*** y haz clic en "Instalar".
 - El IDE detectará que esta librería necesita otra para funcionar y te preguntará si quieres instalarla también. Haz clic en "Install all" o "Instalar todo".
+
+![Ejemplo de búsqueda en el gestor de librerías del IDE de Arduino.](https://github.com/DigitalCodesign/MentorBit-BH1750/blob/main/assets/library_instalation_example.png)
 
 ¡Y ya está! Con eso tienes todo lo necesario para empezar a programar.
 
@@ -101,3 +105,14 @@ Esta librería está diseñada para ser minimalista y fácil de usar. Solo neces
 - <code>float leerLux()</code>
    - **¿Qué hace?** Le pide al sensor una medición de luz y te la devuelve como un número decimal (de tipo <code>float</code>).
    - **¿Cuándo se usa?** La llamarás cada vez que quieras saber cuánta luz hay, normalmente dentro de la función <code>loop()</code>.
+
+## Recursos Adicionales
+
+¿Quieres saber más sobre el módulo o necesitas comprar uno? Aquí tienes algunos enlaces que te serán de utilidad:
+
+- [Web del fabricante](https://digitalcodesign.com/)
+- [Tienda Online de Canarias](https://canarias.digitalcodesign.com/shop)
+- [Tienda Online de Península](https://digitalcodesign.com/shop)
+- [Web Oficial de MentorBit](https://digitalcodesign.com/mentorbit)
+- [Web Oficial de Módulo MentorBit de Luxómetro](#)
+- [Manual de usuario del Módulo](#)
