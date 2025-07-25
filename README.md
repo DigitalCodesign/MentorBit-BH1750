@@ -110,6 +110,7 @@ Esta librería está diseñada para ser minimalista y fácil de usar. Solo neces
 
 ¿Quieres saber más sobre el módulo o necesitas comprar uno? Aquí tienes algunos enlaces que te serán de utilidad:
 
+- <a href="https://digitalcodesign.com/" target="_blank">Web del fabricante</a>
 - [Web del fabricante](https://digitalcodesign.com/)
 - [Tienda Online de Canarias](https://canarias.digitalcodesign.com/shop)
 - [Tienda Online de Península](https://digitalcodesign.com/shop)
