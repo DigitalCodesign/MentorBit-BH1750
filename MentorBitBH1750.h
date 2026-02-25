@@ -35,20 +35,24 @@
 
 #include <Arduino.h>
 #include <Wire.h>
-#include <BH1750.h>
 
     class MentorBit_BH1750
     {
 
         public:
 
-            MentorBit_BH1750();
-            void begin();
+            MentorBit_BH1750(uint8_t i2c_addr = 0x23);
+
+            bool begin();
+
             float leerLux();
 
         private:
 
-            BH1750 luxmeter;
+            uint8_t _i2c_addr;
+            const uint8_t CMD_POWER_ON = 0x01;
+            const uint8_t CMD_RESET = 0x07;
+            const uint8_t CMD_CONT_HIGH_RES = 0x10;
 
     };
 
